@@ -39,4 +39,4 @@ def connect_dydx():
     print("account balance :", quote_balance)
 
     # Return Clint
-    return Client
+    return client
