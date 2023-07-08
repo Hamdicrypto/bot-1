@@ -10,7 +10,8 @@ from func_messaging import send_message
 
 # MAIN FUNCTION
 if __name__ == "__main__":
-
+   # Message on start
+  send_message("Bot launch successful")
   # Message on start
   #success = send_message("Bot launch successful")
   #print(success)
