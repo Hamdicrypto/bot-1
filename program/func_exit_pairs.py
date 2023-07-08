@@ -6,6 +6,7 @@ from func_private import place_market_order
 import json
 import time
 
+
 from pprint import pprint
 
 # Manage trade exits

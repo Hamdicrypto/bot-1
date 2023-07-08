@@ -4,6 +4,7 @@ import statsmodels.api as sm
 from statsmodels.tsa.stattools import coint
 from constants import MAX_HALF_LIFE, WINDOW
 
+
 # Calculate Half Life
 # https://www.pythonforfinance.net/2016/05/09/python-backtesting-mean-reversion-part-2/
 

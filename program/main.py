@@ -12,14 +12,23 @@ from func_messaging import send_message
 if __name__ == "__main__":
 
   # Message on start
-  send_message("Bot launch successful")
-  print("success")
-  exit(1)
+  #success = send_message("Bot launch successful")
+  #print(success)
+  #exit(1)
+
+ # try:
+ #   success = send_message("Bot launch successful")
+  #  print(success)
+ #   exit(1)
+ # except Exception as e:
+  #  print("Error connecting to telegram: ", e)
+    # send_message(f"Failed to connect to client {e}")
+  #  exit(1)
 
   # Connect to client
   try:
-    print("Connecting to Client...")
-    client = connect_dydx()
+   print("Connecting to Client...")
+   client = connect_dydx()
   except Exception as e:
     print("Error connecting to client: ", e)
    # send_message(f"Failed to connect to client {e}")
